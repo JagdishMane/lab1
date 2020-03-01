@@ -1,0 +1,8 @@
+---
+- name: Echo role1
+  debug:
+    msg: "This is play one"
+
+- name: echo var
+  debug:
+    msg: "{{ var1 }}"
